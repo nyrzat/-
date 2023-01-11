@@ -1,0 +1,34 @@
+.main-block
+    @include df
+.main-block_info,
+.main-block_img
+    width: 48%
+.main-block_info
+    a
+        color: #2E90D1
+        font-size: 16px
+        font-weight: 600
+    h1
+        @include title
+        font-size: 46px 
+        line-height: 70px
+    p
+        font-size: 20px
+        margin-bottom: 56px
+    .main-block_btns
+        display: flex
+        align-items: center
+        gap: 20px
+    .main-block_free
+        @include vialetbtn
+    .main-block_video-clip
+        color: #585858
+        font-weight: 500
+        padding:  18px 0 18px 70px
+        background-image: url(../img/play-icon.png)
+        background-repeat: no-repeat
+        background-position: 0 50%
+        background-size: 22%
+
+.main-img
+    width: 100%
