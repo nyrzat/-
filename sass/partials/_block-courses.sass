@@ -1,0 +1,49 @@
+.row
+    @include df
+    align-items: flex-end
+    margin-bottom: 60px
+.block-courses_title
+    @include title
+.block-courses_btn_all-courses
+    @include btnwithboder
+.block-courses_row
+    @include df
+%courses_col
+    width: 30%
+    padding: 40px
+    border-radius: 10px
+    img
+        width: 50px
+        height: 50px
+        border-radius: 50%
+        margin-bottom: 20px
+    h3
+        font-size: 24px
+        color: $black
+        font-weight: 700
+        margin-bottom: 20px
+    .block-courses_col_info-corses
+        margin-bottom: 20px
+        color: #585858
+        span
+            color: #000
+            font-weight: 700
+    .block-courses_col-price-leam-more
+        display: flex
+        justify-content: space-between
+        a
+            font-weight: 600
+            color: $vialet
+        p
+            font-size: 20px
+            font-weight: 700
+            color: $black
+.block-courses_col-1
+    @extend   %courses_col
+    background: #DEF1FF
+.block-courses_col-2
+    @extend   %courses_col
+    background: #FDEDE4
+.block-courses_col-3
+    @extend   %courses_col
+    background: #EFEFFF

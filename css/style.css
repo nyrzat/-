@@ -127,4 +127,85 @@ li {
   width: 100%;
 }
 
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  align-items: flex-end;
+  margin-bottom: 60px;
+}
+
+.block-courses_title {
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 54px;
+  color: #232323;
+}
+
+.block-courses_btn_all-courses {
+  padding: 12px 16px;
+  color: #782580;
+  border: 1px solid #782580;
+  border-radius: 8px;
+}
+
+.block-courses_row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.block-courses_col-3, .block-courses_col-2, .block-courses_col-1 {
+  width: 30%;
+  padding: 40px;
+  border-radius: 10px;
+}
+.block-courses_col-3 img, .block-courses_col-2 img, .block-courses_col-1 img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.block-courses_col-3 h3, .block-courses_col-2 h3, .block-courses_col-1 h3 {
+  font-size: 24px;
+  color: #232323;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.block-courses_col-3 .block-courses_col_info-corses, .block-courses_col-2 .block-courses_col_info-corses, .block-courses_col-1 .block-courses_col_info-corses {
+  margin-bottom: 20px;
+  color: #585858;
+}
+.block-courses_col-3 .block-courses_col_info-corses span, .block-courses_col-2 .block-courses_col_info-corses span, .block-courses_col-1 .block-courses_col_info-corses span {
+  color: #000;
+  font-weight: 700;
+}
+.block-courses_col-3 .block-courses_col-price-leam-more, .block-courses_col-2 .block-courses_col-price-leam-more, .block-courses_col-1 .block-courses_col-price-leam-more {
+  display: flex;
+  justify-content: space-between;
+}
+.block-courses_col-3 .block-courses_col-price-leam-more a, .block-courses_col-2 .block-courses_col-price-leam-more a, .block-courses_col-1 .block-courses_col-price-leam-more a {
+  font-weight: 600;
+  color: #782580;
+}
+.block-courses_col-3 .block-courses_col-price-leam-more p, .block-courses_col-2 .block-courses_col-price-leam-more p, .block-courses_col-1 .block-courses_col-price-leam-more p {
+  font-size: 20px;
+  font-weight: 700;
+  color: #232323;
+}
+
+.block-courses_col-1 {
+  background: #DEF1FF;
+}
+
+.block-courses_col-2 {
+  background: #FDEDE4;
+}
+
+.block-courses_col-3 {
+  background: #EFEFFF;
+}
+
 /*# sourceMappingURL=style.css.map */
