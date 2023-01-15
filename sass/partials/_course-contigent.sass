@@ -1,0 +1,72 @@
+%course-contigent_col
+    max-width: 400px
+    padding: 10px 20px
+    .course-contigent_col_icon-block
+        width: 60px
+        height: 60px
+        border-radius: 50%
+        text-align: center
+        line-height: 60px
+        font-size: 26px
+        margin-bottom: 16px
+    h6
+        font-size: 24px 
+        font-weight: 700
+        color: $black
+        margin-bottom: 10px
+    p
+        font-size: 16px
+        font-weight: 50
+.course-contigent
+    .row
+        @include df
+        align-items: flex-start
+.course-contigent_info
+    max-width: 453px
+    h2
+        @include title
+        span
+            color: #2F91D2
+            text-transform: uppercase
+            display: block
+            margin-bottom: 27px
+    p
+        font-size: 20px
+        margin-bottom: 40px
+        span
+            color: #2F91D2
+    a
+        @include vialetbtn
+.course-contigent_row
+    @include df
+    margin-bottom: 40px
+    .course-contigent_col-1
+        @extend %course-contigent_col
+        .course-contigent_col_icon-block
+            background: #E4D3E8
+            color: #78258D
+    .course-contigent_col-2
+        @extend %course-contigent_col
+        .course-contigent_col_icon-block
+            background: #D5E9F6
+            color: #2E90D1
+    .course-contigent_col-3
+        @extend %course-contigent_col
+        .course-contigent_col_icon-block
+            background: #FFF1CC
+            color: #FFB800
+    .course-contigent_col-4
+        @extend %course-contigent_col
+        .course-contigent_col_icon-block
+            background: #FEF6F6
+            color: #E42125
+    .course-contigent_col-5
+        @extend %course-contigent_col
+        .course-contigent_col_icon-block
+            background: #D5E9F6
+            color: #2E90D1
+    .course-contigent_col-6
+        @extend %course-contigent_col
+        .course-contigent_col_icon-block
+            background: #E4D3E8
+            color: #78258D
